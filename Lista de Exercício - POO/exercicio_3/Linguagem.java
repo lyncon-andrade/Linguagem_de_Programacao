@@ -1,0 +1,21 @@
+public class Linguagem {
+    String nome;
+    String tipo;
+
+    public Linguagem(String nome, String tipo){
+        setNome(nome);
+        setTipo(tipo);
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+    public String getTipo() {
+        return tipo;
+    }
+}
